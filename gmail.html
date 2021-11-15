@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gmail-page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/gmail.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+    <div class="container-fluied">
+        <nav class="row ">
+            <div class="col-md-2 col-sm-2 col">
+
+                <div id="mySidenav" class="sidenav ">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="sidenav-items">
+                        <a href="/html/compose.html"><i class="fas fa-plus-square"></i>Compose page</a>
+                        <a href="/html/gmail.html"><i class="fas fa-inbox"></i>Inbox</a>
+                        <a href="#"> <i class="far fa-paper-plane"></i>Sent items</a>
+                        <a href="#"><i class="fas fa-trash-restore"></i>Trash</a>
+                        <a href="/html/signin.html"><i class="fas fa-sign-out-alt"></i>Log-out</a>
+                    </div>
+                </div>
+                <span style="font-size: 25px;" onclick="openNav()"><button>&#9776</button></span>
+               <a href="#"> <i class="fas fa-user-tie profile"></i></a>
+            </div>
+
+
+            <div class="col-md-10 col-sm-10 col search-bar">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                    <form class="form-inline" action="#">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </nav>
+
+            </div>
+        </nav>
+        <hr>
+        <div class="row">
+
+            <div class="col-sm-12 col-md-12">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#home" data-toggle="tab"><span class="glyphicon glyphicon-inbox">
+                            </span>Primary</a></li>
+
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane fade in active" id="home">
+                        <div class="list-group">
+
+
+          
+                            <!-- tab1 -->
+                            <a href="#" class="list-group-item">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                                <span class="glyphicon glyphicon-star-empty"></span><span class="name" style="min-width: 120px;
+                                            display: inline-block;">Jason Markus</span> <span class="">This is big
+                                    title</span>
+                                <span class="text-muted" style="font-size: 11px;">- I saw that you had..</span> <span
+                                    class="badge">12:09 AM</span> <span class="pull-right"><span
+                                        class="glyphicon glyphicon-paperclip">
+                                    </span></span>
+                            </a>
+
+
+                            <!-- tab2 -->
+                            <a href="#" class="list-group-item read">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                                <span class="glyphicon glyphicon-star"></span><span class="name" style="min-width: 120px;
+                                                    display: inline-block;">Jane Patel</span> <span class="">This is
+                                    big title</span>
+                                <span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+                                    class="badge">11:30 PM</span> <span class="pull-right"><span
+                                        class="glyphicon glyphicon-paperclip">
+                                    </span></span>
+                            </a>
+
+
+                             <!-- tab3         -->
+                            <a href="#" class="list-group-item read">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                                <span class="glyphicon glyphicon-star"></span><span class="name" style="min-width: 120px;
+                                                    display: inline-block;">Jane Patel</span> <span class="">This is
+                                    big title</span>
+                                <span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+                                    class="badge">11:30 PM</span> <span class="pull-right"><span
+                                        class="glyphicon glyphicon-paperclip">
+                                    </span></span>
+                            </a>
+
+
+                              <!-- tab4        -->
+                            <a href="#" class="list-group-item read">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                                <span class="glyphicon glyphicon-star"></span><span class="name" style="min-width: 120px;
+                                                    display: inline-block;">Jane Patel</span> <span class="">This is
+                                    big title</span>
+                                <span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+                                    class="badge">11:30 PM</span> <span class="pull-right"><span
+                                        class="glyphicon glyphicon-paperclip">
+                                    </span></span>
+                            </a>
+
+                                <!-- tab5      -->
+                            <a href="#" class="list-group-item read">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                                <span class="glyphicon glyphicon-star"></span><span class="name" style="min-width: 120px;
+                                                    display: inline-block;">Jane Patel</span> <span class="">This is
+                                    big title</span>
+                                <span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+                                    class="badge">11:30 PM</span> <span class="pull-right"><span
+                                        class="glyphicon glyphicon-paperclip">
+                                    </span></span>
+                            </a>
+
+                                    <!-- tab5      -->
+                                    <a href="#" class="list-group-item read">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox">
+                                            </label>
+                                        </div>
+                                        <span class="glyphicon glyphicon-star"></span><span class="name" style="min-width: 120px;
+                                                            display: inline-block;">Jane Patel</span> <span class="">This is
+                                            big title</span>
+                                        <span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+                                            class="badge">11:30 PM</span> <span class="pull-right"><span
+                                                class="glyphicon glyphicon-paperclip">
+                                            </span></span>
+                                    </a>
+
+                                            <!-- tab5      -->
+                            <a href="#" class="list-group-item read">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                                <span class="glyphicon glyphicon-star"></span><span class="name" style="min-width: 120px;
+                                                    display: inline-block;">Jane Patel</span> <span class="">This is
+                                    big title</span>
+                                <span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+                                    class="badge">11:30 PM</span> <span class="pull-right"><span
+                                        class="glyphicon glyphicon-paperclip">
+                                    </span></span>
+                            </a>
+
+
+                                    <!-- tab5      -->
+                                    <a href="#" class="list-group-item read">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox">
+                                            </label>
+                                        </div>
+                                        <span class="glyphicon glyphicon-star"></span><span class="name" style="min-width: 120px;
+                                                            display: inline-block;">Jane Patel</span> <span class="">This is
+                                            big title</span>
+                                        <span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+                                            class="badge">11:30 PM</span> <span class="pull-right"><span
+                                                class="glyphicon glyphicon-paperclip">
+                                            </span></span>
+                                    </a>
+
+
+                                            <!-- tab5      -->
+                            <a href="#" class="list-group-item read">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">
+                                    </label>
+                                </div>
+                                <span class="glyphicon glyphicon-star"></span><span class="name" style="min-width: 120px;
+                                                    display: inline-block;">Jane Patel</span> <span class="">This is
+                                    big title</span>
+                                <span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+                                    class="badge">11:30 PM</span> <span class="pull-right"><span
+                                        class="glyphicon glyphicon-paperclip">
+                                    </span></span>
+                            </a>
+
+                                    <!-- tab5      -->
+                                    <a href="#" class="list-group-item read">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox">
+                                            </label>
+                                        </div>
+                                        <span class="glyphicon glyphicon-star"></span><span class="name" style="min-width: 120px;
+                                                            display: inline-block;">Jane Patel</span> <span class="">This is
+                                            big title</span>
+                                        <span class="text-muted" style="font-size: 11px;">- Hi hello how r u ?</span> <span
+                                            class="badge">11:30 PM</span> <span class="pull-right"><span
+                                                class="glyphicon glyphicon-paperclip">
+                                            </span></span>
+                                    </a>
+
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade in" id="profile">
+                        <div class="list-group">
+                            <div class="list-group-item">
+                                <span class="text-center">This tab is empty.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade in" id="messages">
+                        ...</div>
+                    <div class="tab-pane fade in" id="settings">
+                        This tab is empty.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+</body>
+
+
+</html>
